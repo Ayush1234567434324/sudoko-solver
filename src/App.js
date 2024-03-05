@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import Grid from './grid/grid';
-
+import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   const [board, setBoard] = useState([
     ['5', '3', '.', '.', '7', '.', '.', '.', '.'],
